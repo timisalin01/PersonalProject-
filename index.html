@@ -7,6 +7,7 @@
 
 
     <link rel="stylesheet" type="text/css" href="css/superslides.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
     crossorigin="anonymous"> 
@@ -42,6 +43,7 @@
 
 
     </div>
+<!--About-->
 
     <div id="about" class="section">
 
@@ -50,7 +52,7 @@
             <div class="row">
 
                 <div class="col-md-5">
-                    <img class="aboutImage" src="/img/aboutme.jpg">
+                    <img class="aboutImage" src="/img/aboutme.jpg" alt="fotocv">
                 </div>
 
                 <div class="col-md-7">
@@ -61,31 +63,107 @@
                     <p>Since I was a child I had a passion for programming and few years ago I followed it, spending my nights and weekends learning how to code on my own.</p>
                     <p>The sky is the limit, but I learn everyday... </p>
 
-                </div>
-
+                    <button type="button" class="btn btn-primary">Primary</button>
+                    
+                 </div>
 
             </div>
-
-        </div>
-
+        </div>   
     </div>
+<!--Skills-->
+
+    <div id="skills" class="skillsSection section">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>TECHNICAL SKILLS</h2>
+                    <p>A representation of my  proficiency in ech skill</p>
+                </div>
+
+                <div class="owl-carousel owl-theme">
+                   
+                    <div class="skill">
+                        <span class="chart" data-percent="57">
+                            <span class="percent">57</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>    
+                        <h4>HTML5</h4>
+                        <p>HTML5 is a software solution stack that defines the properties and behaviors of web page content by implementing a markup-based pattern to it.</p>        
+                    </div>
+
+                    <div class="skill">
+                        <span class="chart" data-percent="45">
+                            <span class="percent">45</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>    
+                        <h4>CSS3</h4>
+                        <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.</p>        
+                    </div>
+
+                    <div class="skill">
+                        <span class="chart" data-percent="32">
+                            <span class="percent">32</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>    
+                        <h4>Bootstrap</h4>
+                        <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.</p>        
+                    </div>
+
+                    <div class="skill">
+                        <span class="chart" data-percent="39">
+                            <span class="percent">39</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>    
+                        <h4>JavaScript</h4>
+                        <p>JavaScript enables interactive web pages and is an essential part of web applications.</p>        
+                    </div>
+
+                    <div class="skill">
+                        <span class="chart" data-percent="28">
+                            <span class="percent">28</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>    
+                        <h4>React</h4>
+                        <p>React (also known as React.js or ReactJS) is a JavaScript library
+                         for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.</p>        
+                    </div>
+
+                    <div class="skill">
+                        <span class="chart" data-percent="20">
+                            <span class="percent">20</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>    
+                        <h4>GitHub</h4>
+                        <p>GitHub, Inc. is a US-based global company that provides hosting for software development version control using Git.</p>        
+                    </div>
+
+                </div>
+            
+            </div>  
+        </div>    
+    </div>    
+
+</div>
+
+
+       
 
 
 
 
+    <script src="js/jquery.superslides.js"></script>
+    <script src="js/jquery.easypiechart.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+    crossorigin="anonymous"></script>
 
-
-
-
-<script src="js/jquery.superslides.js"></script>
-<script src="js/typed.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
- integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
- crossorigin="anonymous"></script>
-
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
-integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
-crossorigin="anonymous"></script>
-<script src="js/script.js"></script>   
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+    crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>   
 </body>
 </html>
