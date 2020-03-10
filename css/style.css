@@ -369,7 +369,7 @@ ul.timeline:before {
   left: 29px;
   width: 2px;
   height: 100%;
-  z-index: 400;
+  z-index: 8;
 }
 ul.timeline > li {
   margin: 20px 0;
@@ -385,7 +385,7 @@ ul.timeline > li:before {
   left: 20px;
   width: 20px;
   height: 20px;
-  z-index: 400;
+  z-index: 9;
 }
 
 .resumeSection{
@@ -395,6 +395,60 @@ ul.timeline > li:before {
 a:link {
   text-decoration: none;
 }
+
+#navigation {
+  background-color: #2980b9;
+  padding: 20px 10px;
+  z-index: 100;
+  width: 100%;
+}
+
+#navigation li{
+  padding:  0 10px;
+}
+
+#navigation li a{
+  color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover{
+  color: #fff;  
+}
+
+.navbar-toggler-icon{
+  background: url(../img/icons/menu.png);
+  background-size: 100%;
+
+}
+
+.fixedNav #navigation {
+	position: fixed;
+	top: 0;
+}
+
+.loading{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
+
+.loading .inner{
+  width: 100%;
+  height: 100%;
+  background: url(../img/icons/loading.gif) center center no-repeat;
+}
+
+
+
+
+
+
+
 
 
 

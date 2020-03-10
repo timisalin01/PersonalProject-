@@ -21,6 +21,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
+
+    <div class="loading">
+        <div class="inner"></div>
+    </div>
+
     <div id="slides">
 
         <div class="overlay"></div>    
@@ -49,6 +54,36 @@
 
 
     </div>
+
+ <!--NAV-->
+ <nav id="navigation" class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#">Alin Timis</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about">About Me <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#resume">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+      </ul>
+    </div>
+  </nav>   
+
 <!--About-->
 
     <div id="about" class="section">
@@ -76,7 +111,7 @@
                          I like to sleep early, I like to get up late; I like to be alone, I like to be surrounded by people. I like country’s peace, I like metropolis’ noise</p>
                     <p> I like delicious food and comfortable shoes; I like good books and SF movies. I like the land and the nature, I like people. And, I like to laugh.</p> 
                     <p>This is a brief introduction of myself. If you are interested in knowing more, download my CV or take a look at my pictures.</p>    
-                    <button type="button" class="btn btn-primary">Primary</button>
+                    <a href='doc/CV-Timiş-EN.pdf' target="_blank"><button type="button" class="btn btn-primary"> Download My CV</button></a>
                 </div>    
 
             </div>
@@ -266,10 +301,10 @@
 
                             <div class="item">
 
-                                <img src="img/portfolio/thumnails/dog-sq.jpeg">
+                                <img src="img/portfolio/thumnails/weight-sq.PNG">
 
                                 <div class="icons">
-                                    <a href="img/portfolio/dog.jpeg" title="View image" class="openButton" data-fancybox data-caption="This is my work">
+                                    <a href="img/portfolio/weight.PNG" title="View image" class="openButton" data-fancybox data-caption="This is my work">
                                         <i class="fa fa-search"></i>
                                     </a>
 
@@ -288,10 +323,10 @@
 
                             <div class="item">
 
-                                <img src="img/portfolio/thumnails/dog-sq.jpeg">
+                                <img src="img/portfolio/thumnails/tag-sq.jpg">
 
                                 <div class="icons">
-                                    <a href="img/portfolio/dog.jpeg" title="View image" class="openButton" data-fancybox data-caption="This is my work">
+                                    <a href="img/portfolio/tag.jpg" title="View image" class="openButton" data-fancybox data-caption="This is my work">
                                         <i class="fa fa-search"></i>
                                     </a>
 
@@ -310,10 +345,10 @@
 
                             <div class="item">
 
-                                <img src="img/portfolio/thumnails/dog-sq.jpeg">
+                                <img src="img/portfolio/thumnails/learn-sq.jpg">
 
                                 <div class="icons">
-                                    <a href="img/portfolio/dog.jpeg" title="View image" class="openButton" data-fancybox data-caption="This is my work">
+                                    <a href="img/portfolio/learn.jpg" title="View image" class="openButton" data-fancybox data-caption="This is my work">
                                         <i class="fa fa-search"></i>
                                     </a>
 
@@ -328,18 +363,18 @@
 
                         </li>
 
-                        <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                        <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
 
                             <div class="item">
 
-                                <img src="img/portfolio/thumnails/dog-sq.jpeg">
+                                <img src="img/portfolio/thumnails/cv-sq.PNG">
 
                                 <div class="icons">
-                                    <a href="img/portfolio/dog.jpeg" title="View image" class="openButton" data-fancybox data-caption="This is my work">
+                                    <a href="img/portfolio/cv.PNG" title="View image" class="openButton" data-fancybox data-caption="Web Site with my CV">
                                         <i class="fa fa-search"></i>
                                     </a>
 
-                                    <a href="#" target="_blank" class="projectLink">
+                                    <a href="http://127.0.0.1:5500/index.html#" target="_blank" class="projectLink">
                                         <i class="fa fa-link"></i>
                                     </a>
                                 </div>
@@ -354,10 +389,10 @@
 
                             <div class="item">
 
-                                <img src="img/portfolio/thumnails/dog-sq.jpeg">
+                                <img src="img/portfolio/thumnails/meteo-sq.PNG">
 
                                 <div class="icons">
-                                    <a href="img/portfolio/dog.jpeg" title="View image" class="openButton" data-fancybox data-caption="This is my work">
+                                    <a href="img/portfolio/meteo.PNG" title="View image" class="openButton" data-fancybox data-caption="Meteo APP">
                                         <i class="fa fa-search"></i>
                                     </a>
 
@@ -379,11 +414,11 @@
                                 <img src="img/portfolio/thumnails/ofta-sq.png">
 
                                 <div class="icons">
-                                    <a href="img/portfolio/ofta.PNG" title="View image" class="openButton" data-fancybox data-caption="This is my work">
+                                    <a href="img/portfolio/ofta.PNG" title="View image" class="openButton" data-fancybox data-caption="Web Site made in Wordpress">
                                         <i class="fa fa-search"></i>
                                     </a>
 
-                                    <a href="#" target="_blank" class="projectLink">
+                                    <a href="http://www.lentile-de-noapte.eu/" target="_blank" class="projectLink">
                                         <i class="fa fa-link"></i>
                                     </a>
                                 </div>
